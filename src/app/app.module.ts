@@ -8,13 +8,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import{MatToolbarModule} from '@angular/material/toolbar';
 import { NavComponent } from './component/tamlate/nav/nav.component';
 import{ MatSidenavModule} from '@angular/material/sidenav'
-import { MatListModule} from '@angular/material/list'
+import { MatListModule} from '@angular/material/list';
+import { FooterComponent } from './component/tamplate/footer/footer.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     MatToolbarModule,
